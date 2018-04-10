@@ -1,0 +1,40 @@
+﻿<Window x:Class="Simpaging.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Simpaging"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="backGround" Source ="C:\Users\Public\Pictures\orange-wallpaper-20.jpg" Stretch="Fill" Margin="0,0,-0.4,-0.4"/>
+        <Button x:Name="Next" Content="Next" HorizontalAlignment="Left" Margin="396,391,0,0" VerticalAlignment="Top" Width="124" Click="NextStep"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="259" Margin="170,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="197"/>
+        <Label x:Name="frame0"  Content="Frame 0" HorizontalAlignment="Left" Margin="170,110,0,0" VerticalAlignment="Top" />
+        <Label x:Name="frame1" Content="Frame 1" HorizontalAlignment="Left" Margin="170,141,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="frame2" Content="Frame 2" HorizontalAlignment="Left" Margin="170,172,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="frame3" Content="Frame 3" HorizontalAlignment="Left" Margin="170,203,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="frame4" Content="Frame 4" HorizontalAlignment="Left" Margin="170,234,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="frame5" Content="Frame 5" HorizontalAlignment="Left" Margin="170,264,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="frame7" Content="Frame 7" HorizontalAlignment="Left" Margin="170,326,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="frame6" Content="Frame 6" HorizontalAlignment="Left" Margin="170,295,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="box0" HorizontalAlignment="Left" Height="23" Margin="247,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="box1" HorizontalAlignment="Left" Height="23" Margin="247,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="box2" HorizontalAlignment="Left" Height="23" Margin="247,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="box3" HorizontalAlignment="Left" Height="23" Margin="247,206,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="box4" HorizontalAlignment="Left" Height="23" Margin="247,236,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="box5" HorizontalAlignment="Left" Height="23" Margin="247,266,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="box6" HorizontalAlignment="Left" Height="23" Margin="247,298,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="box7" HorizontalAlignment="Left" Height="23" Margin="247,329,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="108"/>
+        <Button x:Name="Load" Content="Load File" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="LoadBTN"/>
+        <Button x:Name="Start" Content="Start" HorizontalAlignment="Left" Margin="247,390,0,0" VerticalAlignment="Top" Width="120" Height="22" Click="Start_Click"/>
+        <Button Content="Quit" HorizontalAlignment="Left" Margin="709,391,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="freeFramesTB" HorizontalAlignment="Left" Height="23" Margin="400,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Free Frames" HorizontalAlignment="Left" Margin="420,84,0,0" VerticalAlignment="Top"/>
+        <Label Content="Page Table" HorizontalAlignment="Left" Margin="637,82,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="fileLine" HorizontalAlignment="Left" Height="23" Margin="10,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <ListBox x:Name="PageBox" HorizontalAlignment="Left" Height="259" Margin="579,110,0,0" VerticalAlignment="Top" Width="167"/>
+        <Label Content="Memory" HorizontalAlignment="Left" Margin="247,79,0,0" VerticalAlignment="Top" Width="81"/>
+        <Label Content="Execution Line" HorizontalAlignment="Left" Margin="32,53,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

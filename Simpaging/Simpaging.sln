@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpaging", "Simpaging\Simpaging.csproj", "{ADFE4E0D-FD36-41DE-BD81-D4D4FDFC6060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADFE4E0D-FD36-41DE-BD81-D4D4FDFC6060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFE4E0D-FD36-41DE-BD81-D4D4FDFC6060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFE4E0D-FD36-41DE-BD81-D4D4FDFC6060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFE4E0D-FD36-41DE-BD81-D4D4FDFC6060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCED33AC-14D1-4A1E-BE0C-E7FD72F758CF}
+	EndGlobalSection
+EndGlobal
